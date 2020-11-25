@@ -1,0 +1,112 @@
+<body style="background-color: #181818;">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/Logo Univ.png" height="104" width="332" alt="Universitas Kristen Maranatha">
+        </a>
+        <button class="navbar-toggler" type="button" data-trigger="#main_nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse" id="main_nav">
+            <div id="closer"></div>
+            <div class="offcanvas-header mt-3">  
+            </div>
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item bordered"> <p class="nav-acc"> Selamat memilih, <%= name %>! </p> </li>
+            <li class="nav-item"> <a class="nav-link" href="/users/logout"> Logout </a> </li>
+            </ul>
+        </div> <!-- navbar-collapse.// -->
+    </nav>
+
+    <div class="container-fluid" style="margin-top: 20px;margin-bottom: 20px;">
+        <div class="row" style="padding: 5px;">
+            <div class="col-md-4">
+                <div class="card bg-light mb-3" data-toggle="modal" data-target="#mapeka">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">MAPEKA</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-light mb-3" data-toggle="modal" data-target="#ukor">
+                    <div class="card-header">UKOR</div>
+                    <div class="card-body">
+                        <h5 class="card-title">UKOR</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-light mb-3" data-toggle="modal" data-target="#vom">
+                    <div class="card-header">VOM</div>
+                    <div class="card-body">
+                        <h5 class="card-title">VOM</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding: 5px;">
+            <div class="col-md-4">
+                <div class="card bg-light mb-3" data-toggle="modal" data-target="#menwa">
+                    <div class="card-header">MENWA</div>
+                    <div class="card-body">
+                        <h5 class="card-title">MENWA</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-light mb-3" data-toggle="modal" data-target="#mcuc">
+                    <div class="card-header">MCUC</div>
+                    <div class="card-body">
+                        <h5 class="card-title">MCUC</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-light mb-3" data-toggle="modal" data-target="#bela">
+                    <div class="card-header">Bela Diri</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bela Diri</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding: 5px;">
+            <div class="col-md-4">
+                <div class="card bg-light mb-3" data-toggle="modal" data-target="#teto">
+                    <div class="card-header">Teater Topeng</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Teater Topeng</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-light mb-3" data-toggle="modal" data-target="#uks">
+                    <div class="card-header">Unit Kegiatan Seni</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Unit Kegiatan Seni</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-light mb-3" data-toggle="modal" data-target="#maphac">
+                    <div class="card-header">MAPHAC</div>
+                    <div class="card-body">
+                        <h5 class="card-title">MAPHAC</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <% include ./partials/popup %>
+    
+</body>
